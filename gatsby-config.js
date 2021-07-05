@@ -8,6 +8,14 @@ module.exports = {
   plugins: [
 
     {
+      resolve: `gatsby-source-google-reviews-en`,
+      options: {
+        placeId: `ChIJDdsPF6whTIYR3omS_FD6Iyw`,
+        apiKey: `F66B09A0B8854F1DB9095E91D1438B17`,
+      },
+    },
+
+    {
       resolve: "gatsby-source-graphql",
       options: {
         typeName: "Kl",

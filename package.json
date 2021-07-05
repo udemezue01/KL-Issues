@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "gatsby": "^3.6.2",
+    "gatsby-source-google-reviews-en": "^1.0.2",
     "gatsby-source-graphql": "^3.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
